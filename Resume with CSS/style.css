@@ -1,0 +1,67 @@
+body {
+    background-color: #273746;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 16px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 5px auto;
+}
+
+hr {
+    border: 1px solid lightcyan;
+}
+
+img {
+    width: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    background-color: #5D6D7E;
+    padding: 18px 25px;
+    border-left: 8px solid #00A9EC;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info>li,
+.skill-set>li,
+.hobbies>li {
+    display: inline;
+    margin-right: 16px;
+    font-weight: 500;
+}
+
+.skill-set>li {
+    background-color: #566573;
+    border: 1px solid lightgray;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.achievements-info>li,
+.extra-curricular-info>li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    font-weight: 500;
+}
