@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Himanshu's Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <h1>Himanshu Rattan</h1>
+
         <nav>
-            <p>Email: contact@himanshurattan9.com |
-                Phone: 123456789 |
-                <a href="https://github.com/himanshurattan9">Github</a> |
-                <a href="https://www.linkedin.com/in/himanshu-rattan-aa93561a6">LinkedIn</a>
-            </p>
+            <ul class="contact-info">
+                <li><img src="public/img/email.png" />contact@himanshurattan9.com</li>
+                <li><img src="public/img/phone.png" /> 123456789</li>
+                <li><img src="public/img/github.png" /><a href="https://github.com/himanshurattan9" target="_blank">Github</a></li>
+                <li><img src="public/img/linkedin.png" /><a href="https://www.linkedin.com/in/himanshu-rattan-aa93561a6" target="_blank">LinkedIn</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -37,7 +45,16 @@
         <section>
             <h2>Skills</h2>
             <article>
-                <p>C++ | Python | HTML5 | CSS | Bootstrap 5 | JavaScript | PHP | CodeIgniter 4</p>
+                <ul class="skill-set">
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Bootstrap 5</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>CodeIgniter 4</li>
+                </ul>
             </article>
         </section>
 
@@ -49,14 +66,29 @@
                 <ul>
                     <li>
                         <h3>Blog Website</h3>
-                        <p>A platform that allows registered users create their own blogs, which they can then share
-                            with other members of the community.</p>
-                        <p>Key Skills: HTML5 | CSS | Bootstrap 5 | JavaScript | PHP | CodeIgniter 4</p>
+                        <p>A platform that allows registered users create their own blogs, which they can then share with other members of the community.</p>
+                        <p>Key Skills:</p>
+                        <ul class="skill-set">
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>Bootstrap 5</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>CodeIgniter 4</li>
+                        </ul>
                     </li>
                     <li>
                         <h3>Student Evaluation Portal</h3>
                         <p>A platform where parents can assign maths tests to their children so that they can evaluate their performance.</p>
-                        <p>Key Skills: HTML5 | CSS | Bootstrap 5 | JavaScript | PHP | CodeIgniter 4</p>
+                        <p>Key Skills:</p>
+                        <ul class="skill-set">
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>Bootstrap 5</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>CodeIgniter 4</li>
+                        </ul>
                     </li>
                 </ul>
             </article>
@@ -89,7 +121,7 @@
         <section>
             <h2>Achievements</h2>
             <article>
-                <ul>
+                <ul class="achievements-info">
                     <li>State Rank 160 in SOF 8th IMO 2014-15 in class 9th</li>
                     <li>State Rank 56 in SOF 17th NSO 2014-15 in class 9th</li>
                 </ul>
@@ -101,7 +133,7 @@
         <section>
             <h2>Extra Curricular Activities</h2>
             <article>
-                <ul>
+                <ul class="extra-curricular-info">
                     <li>Member in Magboard Club, UIET</li>
                     <li>Member in Rotaract Club Chandigarh Himalayan</li>
                 </ul>
@@ -113,7 +145,11 @@
         <section>
             <h2>Personal Interests / Hobbies</h2>
             <article>
-                <p>Art | Gaming | Travelling </p>
+                <ul class="hobbies">
+                    <li>Art</li>
+                    <li>Gaming</li>
+                    <li>Travelling</li>
+                </ul>
             </article>
         </section>
     </main>
